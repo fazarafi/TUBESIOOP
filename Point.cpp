@@ -13,7 +13,7 @@ int Point::getX() const {
 }
 
 //Setter X
-void Point::SetX() const {
+void Point::SetX(int x) const {
 	this->x = x;
 }
 
@@ -23,7 +23,12 @@ int Point::GetY() const {
 }
 
 //Setter Y
-void Point::SetY() const {
+void Point::SetY(int y) const {
+	this->y = y;
+}
+
+void Point::SetXY(int x, int y) const {
+	this->x = x;
 	this->y = y;
 }
 
